@@ -10,3 +10,9 @@ def my_collect(array)
   end
   collection
 end
+
+array = ['ruby', 'javascript', 'python', 'objective-c']
+my_collect(array){|l| l.upcase}
+array = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'] 
+my_collect(array){|n| n.split(" ").first}
+puts collection
